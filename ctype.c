@@ -23,6 +23,15 @@ int isalpha(int c)
 		|| ('A' <= c && c <= 'Z');
 }
 
+int islower(int c)
+{
+	return ('a' <= c && c <= 'z');
+}
+
+int isupper(int c)
+{
+	return ('A' <= c && c <= 'Z');
+}
 
 int isalnum(int c)
 {
