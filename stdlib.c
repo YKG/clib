@@ -36,6 +36,16 @@ int atoi(const char *str)
     return n == max ? n : (int)n * sign;
 }
 
+/*
+ * sizeof(long) == sizeof(int) == 4
+ *
+ */
+long int atol(const char *str)
+{
+    return (long)atoi(str);
+}
+
+
 
 /*
  * Take care: +/-, 科学记数法(e)
